@@ -1,9 +1,16 @@
 fileFormatVersion: 2
 guid: d7364ae6b5653e2458b9784a8266e4ed
+AssetOrigin:
+  serializedVersion: 1
+  productId: 276847
+  packageName: Gem Game full Pack 128px 256px full version
+  packageVersion: 1.0
+  assetPath: Assets/Gem Pack Complete/256 Full content/Pack-ElementsGEMS.png
+  uploadId: 645795
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
-  serializedVersion: 12
+  serializedVersion: 13
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -48,7 +55,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 250
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -67,7 +74,7 @@ TextureImporter:
   swizzle: 50462976
   cookieLightType: 0
   platformSettings:
-  - serializedVersion: 3
+  - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -80,7 +87,7 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
+  - serializedVersion: 4
     buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -93,7 +100,7 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
+  - serializedVersion: 4
     buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -106,8 +113,8 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: iPhone
+  - serializedVersion: 4
+    buildTarget: iOS
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -119,7 +126,7 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
+  - serializedVersion: 4
     buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -132,8 +139,21 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
+  - serializedVersion: 4
     buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -149,7 +169,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Pack-ElementsGEMS_0
+      name: PEG_0
       rect:
         serializedVersion: 2
         x: 0
@@ -157,8 +177,9 @@ TextureImporter:
         width: 256
         height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -170,7 +191,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pack-ElementsGEMS_1
+      name: PEG_1
       rect:
         serializedVersion: 2
         x: 256
@@ -178,20 +199,21 @@ TextureImporter:
         width: 256
         height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2f06236426aa30a4fafee825f53c9360
-      internalID: -961422940
+      spriteID: 1e0546e2641a4b34d8b0743214aee44b
+      internalID: -1086993797
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pack-ElementsGEMS_2
+      name: PEG_2
       rect:
         serializedVersion: 2
         x: 512
@@ -199,20 +221,21 @@ TextureImporter:
         width: 256
         height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5c21b3a4a5928e34f9cca07c32a17e1e
-      internalID: -1911208157
+      spriteID: 56a71b4907a5ca0409e7eb2875db6d4b
+      internalID: -1914984962
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pack-ElementsGEMS_3
+      name: PEG_3
       rect:
         serializedVersion: 2
         x: 768
@@ -220,20 +243,21 @@ TextureImporter:
         width: 256
         height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 461c4293811fb5540b0e8ef57914323d
-      internalID: 614256299
+      spriteID: eaf1e1566f649be4084f0d81adee6927
+      internalID: 1043041914
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pack-ElementsGEMS_4
+      name: PEG_4
       rect:
         serializedVersion: 2
         x: 1024
@@ -241,20 +265,21 @@ TextureImporter:
         width: 256
         height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 25ea60eda9fb43041b8e6ea20c84a2f6
-      internalID: -1798046195
+      spriteID: 41a58b4d7fd5d5a478a98c45b875ca0c
+      internalID: 1065797019
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pack-ElementsGEMS_5
+      name: PEG_5
       rect:
         serializedVersion: 2
         x: 1280
@@ -262,20 +287,21 @@ TextureImporter:
         width: 256
         height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f4e8da45235729544a973f58da921fcf
-      internalID: 80943912
+      spriteID: 36f172ac1848833499ecf0dc09115d47
+      internalID: 1066938875
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pack-ElementsGEMS_6
+      name: PEG_6
       rect:
         serializedVersion: 2
         x: 1536
@@ -283,20 +309,21 @@ TextureImporter:
         width: 256
         height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0a6bb2235e6177c40b75ebc0f9217736
-      internalID: -1045034142
+      spriteID: d6791d4051c270d418d09700ab74f531
+      internalID: 2000331315
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pack-ElementsGEMS_7
+      name: PEG_7
       rect:
         serializedVersion: 2
         x: 1792
@@ -304,20 +331,21 @@ TextureImporter:
         width: 256
         height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c32f9309ad285c0468cb2df22d7f3435
-      internalID: -626937942
+      spriteID: 8dbe6790e33349947b72773271219f11
+      internalID: -234092814
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pack-ElementsGEMS_8
+      name: PEG_8
       rect:
         serializedVersion: 2
         x: 2048
@@ -325,20 +353,21 @@ TextureImporter:
         width: 256
         height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 67354b7072a38cf4d9c70259198fd6eb
-      internalID: 1132902569
+      spriteID: c15603f4c8d0cb341a750e23d1350aa5
+      internalID: -1476866736
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pack-ElementsGEMS_9
+      name: PEG_9
       rect:
         serializedVersion: 2
         x: 0
@@ -346,20 +375,21 @@ TextureImporter:
         width: 256
         height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9b468c5e99efe954d9b5b12907294407
-      internalID: -1384657555
+      spriteID: 613eaa48d25b1b04098caccc7787ccdf
+      internalID: -844312532
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pack-ElementsGEMS_10
+      name: PEG_10
       rect:
         serializedVersion: 2
         x: 256
@@ -367,20 +397,21 @@ TextureImporter:
         width: 256
         height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0654bfe83eae1d84cb7e44b94b90e8e5
-      internalID: 54390891
+      spriteID: aa02f0df31034b24dafeaac91bb2ff42
+      internalID: 558876449
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pack-ElementsGEMS_11
+      name: PEG_11
       rect:
         serializedVersion: 2
         x: 512
@@ -388,20 +419,21 @@ TextureImporter:
         width: 256
         height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 54b594b012388074db49bdafd85fde2c
-      internalID: -330382476
+      spriteID: 03f7af7674970b643810ae8f71bc76ff
+      internalID: -752184001
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pack-ElementsGEMS_12
+      name: PEG_12
       rect:
         serializedVersion: 2
         x: 768
@@ -409,20 +441,21 @@ TextureImporter:
         width: 256
         height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f7803ff72b73b6c4ab14f63d6c938544
-      internalID: 482732877
+      spriteID: cf45f6f41bc8bdd44b7df4bd31c0ef17
+      internalID: -1205900006
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pack-ElementsGEMS_13
+      name: PEG_13
       rect:
         serializedVersion: 2
         x: 1024
@@ -430,20 +463,21 @@ TextureImporter:
         width: 256
         height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b781b04fce9a0154eae3712048f21a5e
-      internalID: -1262583743
+      spriteID: 40583b01a7a4b2d489c35bfba0351896
+      internalID: -1113165668
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pack-ElementsGEMS_14
+      name: PEG_14
       rect:
         serializedVersion: 2
         x: 1280
@@ -451,20 +485,21 @@ TextureImporter:
         width: 256
         height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 609581e5840b2e6458360067b9a6030b
-      internalID: -310641580
+      spriteID: ffdbb76d0ce21a844a00bd3148337f2b
+      internalID: -712717933
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pack-ElementsGEMS_15
+      name: PEG_15
       rect:
         serializedVersion: 2
         x: 1536
@@ -472,20 +507,21 @@ TextureImporter:
         width: 256
         height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 405055c608c3aec4ca6fe730bf79ae58
-      internalID: 1231316243
+      spriteID: 6b6d11afb119c89418896a797755413f
+      internalID: 1379380247
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pack-ElementsGEMS_16
+      name: PEG_16
       rect:
         serializedVersion: 2
         x: 1792
@@ -493,20 +529,21 @@ TextureImporter:
         width: 256
         height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c66a7e2604e4aa94db15114922eadbb7
-      internalID: 1340503391
+      spriteID: a425d6935beff5d43b8f37ea0178c0e1
+      internalID: 321888200
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pack-ElementsGEMS_17
+      name: PEG_17
       rect:
         serializedVersion: 2
         x: 2048
@@ -514,20 +551,21 @@ TextureImporter:
         width: 256
         height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8246aeedfce08a3498b5defd3db4c151
-      internalID: 1901547833
+      spriteID: 1a2d7b057cf464443953551992720a12
+      internalID: 1311023508
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pack-ElementsGEMS_18
+      name: PEG_18
       rect:
         serializedVersion: 2
         x: 0
@@ -535,20 +573,21 @@ TextureImporter:
         width: 256
         height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5889ef153e1f5074f9977793dc8bd96f
-      internalID: -606156244
+      spriteID: b975405da1c262245b69809d2c843971
+      internalID: 908017638
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pack-ElementsGEMS_19
+      name: PEG_19
       rect:
         serializedVersion: 2
         x: 256
@@ -556,20 +595,21 @@ TextureImporter:
         width: 256
         height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b4bc85970a0aceb4887e792ffda015e3
-      internalID: -328383888
+      spriteID: 35f8767831b89264f866a1ea1400439d
+      internalID: 1187615710
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pack-ElementsGEMS_20
+      name: PEG_20
       rect:
         serializedVersion: 2
         x: 512
@@ -577,20 +617,21 @@ TextureImporter:
         width: 256
         height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d0e7afa0d2e02504f89de0eda9488c32
-      internalID: -516375451
+      spriteID: df19d372f8baa0743b617df5bb466bf4
+      internalID: 1229353138
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pack-ElementsGEMS_21
+      name: PEG_21
       rect:
         serializedVersion: 2
         x: 768
@@ -598,20 +639,21 @@ TextureImporter:
         width: 256
         height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eb1414784b548fd4a8521c48754bf49a
-      internalID: 108418231
+      spriteID: 6a9ebc30586dab546bb911444bde9509
+      internalID: -176867791
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pack-ElementsGEMS_22
+      name: PEG_22
       rect:
         serializedVersion: 2
         x: 1024
@@ -619,20 +661,21 @@ TextureImporter:
         width: 256
         height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 39f2fa582835f1740854e0b2755be89a
-      internalID: 972171754
+      spriteID: cb9558dac1a4b7f42897b6b2cd82da55
+      internalID: 365710710
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pack-ElementsGEMS_23
+      name: PEG_23
       rect:
         serializedVersion: 2
         x: 1280
@@ -640,20 +683,21 @@ TextureImporter:
         width: 256
         height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eb0b14a031c240643bf97a9b09d1cf8d
-      internalID: -1361311350
+      spriteID: 23b4b5160272eaa498272bae0eb3d68e
+      internalID: 520559951
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pack-ElementsGEMS_24
+      name: PEG_24
       rect:
         serializedVersion: 2
         x: 1536
@@ -661,20 +705,21 @@ TextureImporter:
         width: 256
         height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d5d90c9dfd856e443a6d0b61ff183580
-      internalID: -935199018
+      spriteID: ef9d6078590c1434091c075da5058eee
+      internalID: 944495041
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pack-ElementsGEMS_25
+      name: PEG_25
       rect:
         serializedVersion: 2
         x: 1792
@@ -682,20 +727,21 @@ TextureImporter:
         width: 256
         height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3da97b2f365a879499d18117134234a7
-      internalID: 290908552
+      spriteID: ef87ec82ccf04a249ba16d2cd66bb684
+      internalID: -140398798
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pack-ElementsGEMS_26
+      name: PEG_26
       rect:
         serializedVersion: 2
         x: 2048
@@ -703,20 +749,21 @@ TextureImporter:
         width: 256
         height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d4848561a9fc0b1419bf8fdf1bd068c5
-      internalID: -1821684161
+      spriteID: eb5dff6a75255dd4bbd68878451caae3
+      internalID: 1181075738
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pack-ElementsGEMS_27
+      name: PEG_27
       rect:
         serializedVersion: 2
         x: 0
@@ -724,20 +771,21 @@ TextureImporter:
         width: 256
         height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 47f6029538d25064f812be0f4db6df20
-      internalID: -791304080
+      spriteID: bbde1ab657dcb5c4a9852ba62bc8fd31
+      internalID: 1677405194
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pack-ElementsGEMS_28
+      name: PEG_28
       rect:
         serializedVersion: 2
         x: 256
@@ -745,20 +793,21 @@ TextureImporter:
         width: 256
         height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2b2ff38624a65264c8ce47d24fe34acb
-      internalID: 21402656
+      spriteID: 42e69fea8e7927141ab877a9cfaa5236
+      internalID: -1795781963
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pack-ElementsGEMS_29
+      name: PEG_29
       rect:
         serializedVersion: 2
         x: 512
@@ -766,20 +815,21 @@ TextureImporter:
         width: 256
         height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8812165724fa0aa45a6868e42686ace7
-      internalID: 2144702393
+      spriteID: ec6dc85de2b18034fa4269836c8f6434
+      internalID: 1235120045
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pack-ElementsGEMS_30
+      name: PEG_30
       rect:
         serializedVersion: 2
         x: 768
@@ -787,20 +837,21 @@ TextureImporter:
         width: 256
         height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 44e11712279741542b094f55df5b56d5
-      internalID: -1050909647
+      spriteID: 82415031756ebea48ad8d1a6f66772a1
+      internalID: 1599246672
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pack-ElementsGEMS_31
+      name: PEG_31
       rect:
         serializedVersion: 2
         x: 1024
@@ -808,20 +859,21 @@ TextureImporter:
         width: 256
         height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 13fc1040de281454a817c70f12797fef
-      internalID: -1294410829
+      spriteID: b972bcc2603478f4f9723fcbec157c05
+      internalID: -1996960228
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pack-ElementsGEMS_32
+      name: PEG_32
       rect:
         serializedVersion: 2
         x: 1280
@@ -829,20 +881,21 @@ TextureImporter:
         width: 256
         height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fe10d473c04b0fb418f55211e2782c3f
-      internalID: -1434620844
+      spriteID: dbc163eb4146bd54e93d83fe469a44b8
+      internalID: -1352838993
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pack-ElementsGEMS_33
+      name: PEG_33
       rect:
         serializedVersion: 2
         x: 1536
@@ -850,20 +903,21 @@ TextureImporter:
         width: 256
         height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b96839161df8a7e4ca502da4fe701133
-      internalID: -735044291
+      spriteID: c6d80b6874a83e64784ba89c3a19239b
+      internalID: 365990971
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pack-ElementsGEMS_34
+      name: PEG_34
       rect:
         serializedVersion: 2
         x: 1792
@@ -871,20 +925,21 @@ TextureImporter:
         width: 256
         height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0f305d66ac8a3c2418e1cc4aa214260e
-      internalID: 848544317
+      spriteID: 86283c31412bafe4b98ba6b4977f6ec0
+      internalID: -461462734
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pack-ElementsGEMS_35
+      name: PEG_35
       rect:
         serializedVersion: 2
         x: 2048
@@ -892,20 +947,21 @@ TextureImporter:
         width: 256
         height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3f0e23acd774ec645a7c7739ea9301df
-      internalID: 1802009205
+      spriteID: c01e06786a1ce5d45b2e3034bbfd77d4
+      internalID: 143603872
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pack-ElementsGEMS_36
+      name: PEG_36
       rect:
         serializedVersion: 2
         x: 0
@@ -913,20 +969,21 @@ TextureImporter:
         width: 256
         height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6b822a5ac3999f347829d5e5679bbe9d
-      internalID: 431553039
+      spriteID: ddc11720b51d0b0429a389c7bdc927b8
+      internalID: -897477101
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pack-ElementsGEMS_37
+      name: PEG_37
       rect:
         serializedVersion: 2
         x: 256
@@ -934,20 +991,21 @@ TextureImporter:
         width: 256
         height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2defff196393b844eaef2acd7eaa62ff
-      internalID: 2084203965
+      spriteID: b0e7b617cf5084843ac7dffb49467865
+      internalID: -551371408
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pack-ElementsGEMS_38
+      name: PEG_38
       rect:
         serializedVersion: 2
         x: 512
@@ -955,20 +1013,21 @@ TextureImporter:
         width: 256
         height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f76abe124023f3a43849799d9b5e4549
-      internalID: 655991889
+      spriteID: 7e6ea661af299ff45b2dc050171affe9
+      internalID: -1435595031
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pack-ElementsGEMS_39
+      name: PEG_39
       rect:
         serializedVersion: 2
         x: 768
@@ -976,20 +1035,21 @@ TextureImporter:
         width: 256
         height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2762af8181f2e21449d770ebb8440ebf
-      internalID: -303966291
+      spriteID: b52127fa9bf96e74badde3e42a4336e2
+      internalID: -1172504285
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pack-ElementsGEMS_40
+      name: PEG_40
       rect:
         serializedVersion: 2
         x: 1024
@@ -997,20 +1057,21 @@ TextureImporter:
         width: 256
         height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ef41dc41f25d9db4a9d17d7f6f3350b7
-      internalID: 948920597
+      spriteID: 3f21568a5a5e8fd43b13dd250d44dc35
+      internalID: -1497437835
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pack-ElementsGEMS_41
+      name: PEG_41
       rect:
         serializedVersion: 2
         x: 1280
@@ -1018,20 +1079,21 @@ TextureImporter:
         width: 256
         height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e7e6852304ee2094eb5b99b996652cba
-      internalID: -681362823
+      spriteID: 84e36f58ccbcc1c4f9cb6c4f7c224f0a
+      internalID: -1894927800
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pack-ElementsGEMS_42
+      name: PEG_42
       rect:
         serializedVersion: 2
         x: 1536
@@ -1039,20 +1101,21 @@ TextureImporter:
         width: 256
         height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 62f715837df3ec44a9ae36f4def7f352
-      internalID: 121269406
+      spriteID: 4ce56d6c42160c14c966923533cbe723
+      internalID: 1628802735
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pack-ElementsGEMS_43
+      name: PEG_43
       rect:
         serializedVersion: 2
         x: 1792
@@ -1060,20 +1123,21 @@ TextureImporter:
         width: 256
         height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 21e30f7706d1b4d449d372cb55f52ee3
-      internalID: -1208204085
+      spriteID: c68eac25e2a7dd143b082e3312558cc2
+      internalID: -1222743964
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pack-ElementsGEMS_44
+      name: PEG_44
       rect:
         serializedVersion: 2
         x: 2048
@@ -1081,20 +1145,21 @@ TextureImporter:
         width: 256
         height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6d751c95664717842a25d6926fa1fb5e
-      internalID: 447217220
+      spriteID: d34bd4ceb83eeb04b84e478c7b7945fe
+      internalID: 2105837018
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pack-ElementsGEMS_45
+      name: PEG_45
       rect:
         serializedVersion: 2
         x: 0
@@ -1102,20 +1167,21 @@ TextureImporter:
         width: 256
         height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b28977f6e9f8c61448a10972957b8fab
-      internalID: -1764385028
+      spriteID: d5fec55859d9f3c42bc06681b34fdc8b
+      internalID: 1985734029
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pack-ElementsGEMS_46
+      name: PEG_46
       rect:
         serializedVersion: 2
         x: 256
@@ -1123,20 +1189,21 @@ TextureImporter:
         width: 256
         height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: beb1bf1c9dff4bb488a5e1f7113debe7
-      internalID: 778239279
+      spriteID: 7cae3def397f02646bf4579ced7e56a1
+      internalID: 771518872
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pack-ElementsGEMS_47
+      name: PEG_47
       rect:
         serializedVersion: 2
         x: 512
@@ -1144,20 +1211,21 @@ TextureImporter:
         width: 256
         height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c5cf224193663a847b3d3c756f7a429e
-      internalID: -82704744
+      spriteID: 49e1fa46e3956014ba599c24a6b44497
+      internalID: -637122321
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pack-ElementsGEMS_48
+      name: PEG_48
       rect:
         serializedVersion: 2
         x: 768
@@ -1165,20 +1233,21 @@ TextureImporter:
         width: 256
         height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d3606071de0884d48a4e996796356b08
-      internalID: 103929781
+      spriteID: d5819612af341a441aa4c09fff70f977
+      internalID: -803194383
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pack-ElementsGEMS_49
+      name: PEG_49
       rect:
         serializedVersion: 2
         x: 1024
@@ -1186,20 +1255,21 @@ TextureImporter:
         width: 256
         height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 23426f3a89d1836459fd53b0f2c2f9c2
-      internalID: 2003857628
+      spriteID: 6b1ce114c1a2be244bb9e9ec1aa4da79
+      internalID: -751949545
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pack-ElementsGEMS_50
+      name: PEG_50
       rect:
         serializedVersion: 2
         x: 1280
@@ -1207,20 +1277,21 @@ TextureImporter:
         width: 256
         height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 84d0391d60b919048a0979c20f83af2f
-      internalID: 2088939414
+      spriteID: 54590b257dbc3804b827ff39727ed7c0
+      internalID: 517763318
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pack-ElementsGEMS_51
+      name: PEG_51
       rect:
         serializedVersion: 2
         x: 1536
@@ -1228,20 +1299,21 @@ TextureImporter:
         width: 256
         height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 94d999af9102b3b48a4b3d4ee579936a
-      internalID: 962394330
+      spriteID: 4952efe012e4ed9418a563d51ba26cb5
+      internalID: 589694801
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pack-ElementsGEMS_52
+      name: PEG_52
       rect:
         serializedVersion: 2
         x: 1792
@@ -1249,20 +1321,21 @@ TextureImporter:
         width: 256
         height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e77158e888729934bb9fcbdf79e21396
-      internalID: 1948217822
+      spriteID: ee35198f8d7b04c4c9c7a81450ae40c6
+      internalID: 1653320423
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pack-ElementsGEMS_53
+      name: PEG_53
       rect:
         serializedVersion: 2
         x: 2048
@@ -1270,20 +1343,21 @@ TextureImporter:
         width: 256
         height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a0e0fe3c83508d64eac096c4e2edd443
-      internalID: 263950082
+      spriteID: a5cfea6f27877494a9c484aca099bc2f
+      internalID: -708979528
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pack-ElementsGEMS_54
+      name: PEG_54
       rect:
         serializedVersion: 2
         x: 0
@@ -1291,20 +1365,21 @@ TextureImporter:
         width: 256
         height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: de18f6c5498ee3c4998c05d1b31aa1c3
-      internalID: 2039942619
+      spriteID: 09008107a95dcf94db0181b3dac5dba2
+      internalID: -1916016930
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pack-ElementsGEMS_55
+      name: PEG_55
       rect:
         serializedVersion: 2
         x: 256
@@ -1312,20 +1387,21 @@ TextureImporter:
         width: 256
         height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 31b7fd06d876b7249b6384bc5c2079c9
-      internalID: 1729574858
+      spriteID: ab32cb83819fd3944985a2271dd4ea69
+      internalID: -1281652049
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pack-ElementsGEMS_56
+      name: PEG_56
       rect:
         serializedVersion: 2
         x: 512
@@ -1333,20 +1409,21 @@ TextureImporter:
         width: 256
         height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 13624d4b135967e4580bbfe05c6a7fb1
-      internalID: -673685952
+      spriteID: 4f3e029154b39ec4387deb6211c47d04
+      internalID: 1759026119
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pack-ElementsGEMS_57
+      name: PEG_57
       rect:
         serializedVersion: 2
         x: 768
@@ -1354,20 +1431,21 @@ TextureImporter:
         width: 256
         height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bca4fadd791744f44a3c33bf2722992e
-      internalID: -605045410
+      spriteID: b60e95814bab89348b014933c97724d6
+      internalID: -1400183449
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pack-ElementsGEMS_58
+      name: PEG_58
       rect:
         serializedVersion: 2
         x: 1024
@@ -1375,20 +1453,21 @@ TextureImporter:
         width: 256
         height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5fb61c9d9d8017b4389b4a12d4755c6b
-      internalID: 1214559170
+      spriteID: 07553e71b2656f4488030ac1f66499e8
+      internalID: -1399115004
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pack-ElementsGEMS_59
+      name: PEG_59
       rect:
         serializedVersion: 2
         x: 1280
@@ -1396,20 +1475,21 @@ TextureImporter:
         width: 256
         height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f257442cd2e978443bc1db116208ca7e
-      internalID: -965468249
+      spriteID: 57493975663edf64b999bba9cfcbd488
+      internalID: -2096252276
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pack-ElementsGEMS_60
+      name: PEG_60
       rect:
         serializedVersion: 2
         x: 1536
@@ -1417,20 +1497,21 @@ TextureImporter:
         width: 256
         height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 851919d5676880442ad8b5326c09a6a6
-      internalID: 1712024770
+      spriteID: e2f0a0ec7bb2ea4478a70621974aacaf
+      internalID: 1114267419
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pack-ElementsGEMS_61
+      name: PEG_61
       rect:
         serializedVersion: 2
         x: 1792
@@ -1438,20 +1519,21 @@ TextureImporter:
         width: 256
         height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 830724e1817b67f479963d3d5b659f1a
-      internalID: 1880809310
+      spriteID: 146430895dc439c489858509bd37f491
+      internalID: -1752851205
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pack-ElementsGEMS_62
+      name: PEG_62
       rect:
         serializedVersion: 2
         x: 2048
@@ -1459,20 +1541,21 @@ TextureImporter:
         width: 256
         height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6a5df6171b7462648bc3f0ee2bd50843
-      internalID: -2116362659
+      spriteID: 28c5cb018f2cd9b429ac8f0ead203ff3
+      internalID: 471608210
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pack-ElementsGEMS_63
+      name: PEG_63
       rect:
         serializedVersion: 2
         x: 0
@@ -1480,20 +1563,21 @@ TextureImporter:
         width: 256
         height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ff8dea9ae2cf3ab4db51760305698611
-      internalID: 1614740708
+      spriteID: 02ed8f1b75dc3f4419e6a5f6409d408d
+      internalID: -1016768298
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pack-ElementsGEMS_64
+      name: PEG_64
       rect:
         serializedVersion: 2
         x: 256
@@ -1501,20 +1585,21 @@ TextureImporter:
         width: 256
         height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b0c0dcba3d014fa4f9c4b6a2aec106e5
-      internalID: 1630524285
+      spriteID: ab3fde8d294c1ec48b48686679506d81
+      internalID: 1481492847
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pack-ElementsGEMS_65
+      name: PEG_65
       rect:
         serializedVersion: 2
         x: 512
@@ -1522,20 +1607,21 @@ TextureImporter:
         width: 256
         height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: afd1f9898f25da54c93416126cbbe7e4
-      internalID: 158112512
+      spriteID: d222b8083ce343843b9bf62d429bd70a
+      internalID: -132786727
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pack-ElementsGEMS_66
+      name: PEG_66
       rect:
         serializedVersion: 2
         x: 768
@@ -1543,20 +1629,21 @@ TextureImporter:
         width: 256
         height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9d7e09eab8f855b45bd9c73c4d3e2dff
-      internalID: -1815729293
+      spriteID: 134e6532144099f4db2bdd5f33a60941
+      internalID: 718311886
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pack-ElementsGEMS_67
+      name: PEG_67
       rect:
         serializedVersion: 2
         x: 1024
@@ -1564,20 +1651,21 @@ TextureImporter:
         width: 256
         height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ce25a501616fe9d4a9586f370705313b
-      internalID: -543968152
+      spriteID: acc4e3c4c3adda442b635936119c4168
+      internalID: -1084378667
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pack-ElementsGEMS_68
+      name: PEG_68
       rect:
         serializedVersion: 2
         x: 1280
@@ -1585,20 +1673,21 @@ TextureImporter:
         width: 256
         height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cb870317a86fc4f4aaf4bdb4f3004c06
-      internalID: -2018936149
+      spriteID: 14d5c6c6578e9694b987b0eaadb1c04b
+      internalID: 1277605821
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pack-ElementsGEMS_69
+      name: PEG_69
       rect:
         serializedVersion: 2
         x: 1536
@@ -1606,20 +1695,21 @@ TextureImporter:
         width: 256
         height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 18de766d467e8b84d89a1cc79961b6b2
-      internalID: 879406049
+      spriteID: 67110138aca8c3a48b7c65a0fca4e891
+      internalID: -558162013
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pack-ElementsGEMS_70
+      name: PEG_70
       rect:
         serializedVersion: 2
         x: 1792
@@ -1627,20 +1717,21 @@ TextureImporter:
         width: 256
         height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 926458ef49646c547b8806d97abcb39f
-      internalID: 514349653
+      spriteID: 9b8a050bf6f37e449a145eae66bb50e1
+      internalID: -1941954487
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pack-ElementsGEMS_71
+      name: PEG_71
       rect:
         serializedVersion: 2
         x: 2048
@@ -1648,20 +1739,21 @@ TextureImporter:
         width: 256
         height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: edf51b34226493d4dbe3f67ae15c840f
-      internalID: -1667457781
+      spriteID: 84cf34cc8997630498e3acc75d0159bf
+      internalID: 727794928
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pack-ElementsGEMS_72
+      name: PEG_72
       rect:
         serializedVersion: 2
         x: 0
@@ -1669,20 +1761,21 @@ TextureImporter:
         width: 256
         height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 078d7857849111b44b8126e6c161428a
-      internalID: 629759520
+      spriteID: 0b06706e744c2cd4086d1a0621a9a71f
+      internalID: 1294979933
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pack-ElementsGEMS_73
+      name: PEG_73
       rect:
         serializedVersion: 2
         x: 256
@@ -1690,20 +1783,21 @@ TextureImporter:
         width: 256
         height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 560f801c416bc704da30224abb38e734
-      internalID: -565976105
+      spriteID: 1c57a526aa43b7548b9568ddc61cb32a
+      internalID: -204122293
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pack-ElementsGEMS_74
+      name: PEG_74
       rect:
         serializedVersion: 2
         x: 512
@@ -1711,20 +1805,21 @@ TextureImporter:
         width: 256
         height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dc63b73ec308dab438db3d5ec814a7be
-      internalID: -1582094298
+      spriteID: 9faa371c4ba15cf4dba629534dfac7f0
+      internalID: -1908097228
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pack-ElementsGEMS_75
+      name: PEG_75
       rect:
         serializedVersion: 2
         x: 768
@@ -1732,20 +1827,21 @@ TextureImporter:
         width: 256
         height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 25f81ccf3d5356a41be436490e0cc34f
-      internalID: 111348836
+      spriteID: b0ac4d7a1d0cff24f9c82cde5a5597c6
+      internalID: -2018385376
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pack-ElementsGEMS_76
+      name: PEG_76
       rect:
         serializedVersion: 2
         x: 1024
@@ -1753,20 +1849,21 @@ TextureImporter:
         width: 256
         height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 46baeccbda59deb44b8069fbb226a4df
-      internalID: -1051836234
+      spriteID: 1fc0731092c07784bb4df100e458ae33
+      internalID: -1831115011
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pack-ElementsGEMS_77
+      name: PEG_77
       rect:
         serializedVersion: 2
         x: 1280
@@ -1774,20 +1871,21 @@ TextureImporter:
         width: 256
         height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a0869331eb2629f458b162d6d0b942e8
-      internalID: -2009891208
+      spriteID: ec0cf7c4b3d3db046b7108e2b9af75b9
+      internalID: -335471288
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pack-ElementsGEMS_78
+      name: PEG_78
       rect:
         serializedVersion: 2
         x: 1536
@@ -1795,20 +1893,21 @@ TextureImporter:
         width: 256
         height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2dc88566340391d4cbb3018492a56b73
-      internalID: -653240196
+      spriteID: c6e3480b87ad33c49b415af8dd607c4c
+      internalID: -1632060044
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pack-ElementsGEMS_79
+      name: PEG_79
       rect:
         serializedVersion: 2
         x: 1792
@@ -1816,20 +1915,21 @@ TextureImporter:
         width: 256
         height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2a3066b744c6c6541afcd44c2fb44e38
-      internalID: 1109457257
+      spriteID: 64734c88efb3e844e8e6be5376dc1573
+      internalID: -1933076927
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pack-ElementsGEMS_80
+      name: PEG_80
       rect:
         serializedVersion: 2
         x: 2048
@@ -1837,20 +1937,21 @@ TextureImporter:
         width: 256
         height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 95245ff5fc3273d44880f5501f6c3c21
-      internalID: -1210344961
+      spriteID: 8a983a1c54dd2a34596e3ff35a6c074d
+      internalID: -169374231
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pack-ElementsGEMS_81
+      name: PEG_81
       rect:
         serializedVersion: 2
         x: 0
@@ -1858,20 +1959,21 @@ TextureImporter:
         width: 256
         height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3c878bf403c9a4b4a99a0ddb93212b4d
-      internalID: -1256866300
+      spriteID: 70f520fa1a1479f46821962d868699cf
+      internalID: -1384186292
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pack-ElementsGEMS_82
+      name: PEG_82
       rect:
         serializedVersion: 2
         x: 256
@@ -1879,20 +1981,21 @@ TextureImporter:
         width: 256
         height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 615df1565f679414aa2f555596178630
-      internalID: 1941665256
+      spriteID: 63c64b86565f11c4a9b010a618cd8568
+      internalID: -391372480
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pack-ElementsGEMS_83
+      name: PEG_83
       rect:
         serializedVersion: 2
         x: 512
@@ -1900,20 +2003,21 @@ TextureImporter:
         width: 256
         height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b51c641103d5b6d47bf99065f3369e0e
-      internalID: 1557065083
+      spriteID: 19ac38aba886f6447ad1d66d19d111ee
+      internalID: -2115413171
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pack-ElementsGEMS_84
+      name: PEG_84
       rect:
         serializedVersion: 2
         x: 768
@@ -1921,20 +2025,21 @@ TextureImporter:
         width: 256
         height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 678aa37849da8f1418be2abfb0a495ea
-      internalID: -2018944500
+      spriteID: 5a92ebdbf07547d47b07d3e730ddeb41
+      internalID: 585587886
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pack-ElementsGEMS_85
+      name: PEG_85
       rect:
         serializedVersion: 2
         x: 1024
@@ -1942,20 +2047,21 @@ TextureImporter:
         width: 256
         height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 53a6a9110b44e2640ba48171ad917dc6
-      internalID: -1951516989
+      spriteID: c18d230fb32a9f94a85717986e6397af
+      internalID: 1985180299
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pack-ElementsGEMS_86
+      name: PEG_86
       rect:
         serializedVersion: 2
         x: 1280
@@ -1963,20 +2069,21 @@ TextureImporter:
         width: 256
         height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0863e95c0c7a0294cac24455d38779df
-      internalID: 1536836545
+      spriteID: ebb2562af3d21024aac00f57951b112d
+      internalID: 720262906
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pack-ElementsGEMS_87
+      name: PEG_87
       rect:
         serializedVersion: 2
         x: 1536
@@ -1984,20 +2091,21 @@ TextureImporter:
         width: 256
         height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5135cc3c5414fd54bab800b05ee77e10
-      internalID: 907987910
+      spriteID: ec14fe5c5f5d74a42b3124ce3469ed00
+      internalID: 1693931602
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pack-ElementsGEMS_88
+      name: PEG_88
       rect:
         serializedVersion: 2
         x: 1792
@@ -2005,20 +2113,21 @@ TextureImporter:
         width: 256
         height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 854830bdc9705594da66a28042ff2406
-      internalID: 1104533825
+      spriteID: 59c635c8b036fb0478dd2351a0358ef9
+      internalID: -1840289701
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pack-ElementsGEMS_89
+      name: PEG_89
       rect:
         serializedVersion: 2
         x: 2048
@@ -2026,19 +2135,21 @@ TextureImporter:
         width: 256
         height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e5fd19d7262175a45aea8c0b39f2cd53
-      internalID: 940552238
+      spriteID: 70247f77d35dedc4cbe0068d13a6ece7
+      internalID: -815868709
       vertices: []
       indices: 
       edges: []
       weights: []
     outline: []
+    customData: 
     physicsShape: []
     bones: []
     spriteID: 5e97eb03825dee720800000000000000
@@ -2048,106 +2159,103 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":9.0,"y":10.0},"gridSpriteSize":{"x":256.0,"y":256.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      Pack-ElementsGEMS_0: -2114997845
-      Pack-ElementsGEMS_1: -961422940
-      Pack-ElementsGEMS_10: 54390891
-      Pack-ElementsGEMS_11: -330382476
-      Pack-ElementsGEMS_12: 482732877
-      Pack-ElementsGEMS_13: -1262583743
-      Pack-ElementsGEMS_14: -310641580
-      Pack-ElementsGEMS_15: 1231316243
-      Pack-ElementsGEMS_16: 1340503391
-      Pack-ElementsGEMS_17: 1901547833
-      Pack-ElementsGEMS_18: -606156244
-      Pack-ElementsGEMS_19: -328383888
-      Pack-ElementsGEMS_2: -1911208157
-      Pack-ElementsGEMS_20: -516375451
-      Pack-ElementsGEMS_21: 108418231
-      Pack-ElementsGEMS_22: 972171754
-      Pack-ElementsGEMS_23: -1361311350
-      Pack-ElementsGEMS_24: -935199018
-      Pack-ElementsGEMS_25: 290908552
-      Pack-ElementsGEMS_26: -1821684161
-      Pack-ElementsGEMS_27: -791304080
-      Pack-ElementsGEMS_28: 21402656
-      Pack-ElementsGEMS_29: 2144702393
-      Pack-ElementsGEMS_3: 614256299
-      Pack-ElementsGEMS_30: -1050909647
-      Pack-ElementsGEMS_31: -1294410829
-      Pack-ElementsGEMS_32: -1434620844
-      Pack-ElementsGEMS_33: -735044291
-      Pack-ElementsGEMS_34: 848544317
-      Pack-ElementsGEMS_35: 1802009205
-      Pack-ElementsGEMS_36: 431553039
-      Pack-ElementsGEMS_37: 2084203965
-      Pack-ElementsGEMS_38: 655991889
-      Pack-ElementsGEMS_39: -303966291
-      Pack-ElementsGEMS_4: -1798046195
-      Pack-ElementsGEMS_40: 948920597
-      Pack-ElementsGEMS_41: -681362823
-      Pack-ElementsGEMS_42: 121269406
-      Pack-ElementsGEMS_43: -1208204085
-      Pack-ElementsGEMS_44: 447217220
-      Pack-ElementsGEMS_45: -1764385028
-      Pack-ElementsGEMS_46: 778239279
-      Pack-ElementsGEMS_47: -82704744
-      Pack-ElementsGEMS_48: 103929781
-      Pack-ElementsGEMS_49: 2003857628
-      Pack-ElementsGEMS_5: 80943912
-      Pack-ElementsGEMS_50: 2088939414
-      Pack-ElementsGEMS_51: 962394330
-      Pack-ElementsGEMS_52: 1948217822
-      Pack-ElementsGEMS_53: 263950082
-      Pack-ElementsGEMS_54: 2039942619
-      Pack-ElementsGEMS_55: 1729574858
-      Pack-ElementsGEMS_56: -673685952
-      Pack-ElementsGEMS_57: -605045410
-      Pack-ElementsGEMS_58: 1214559170
-      Pack-ElementsGEMS_59: -965468249
-      Pack-ElementsGEMS_6: -1045034142
-      Pack-ElementsGEMS_60: 1712024770
-      Pack-ElementsGEMS_61: 1880809310
-      Pack-ElementsGEMS_62: -2116362659
-      Pack-ElementsGEMS_63: 1614740708
-      Pack-ElementsGEMS_64: 1630524285
-      Pack-ElementsGEMS_65: 158112512
-      Pack-ElementsGEMS_66: -1815729293
-      Pack-ElementsGEMS_67: -543968152
-      Pack-ElementsGEMS_68: -2018936149
-      Pack-ElementsGEMS_69: 879406049
-      Pack-ElementsGEMS_7: -626937942
-      Pack-ElementsGEMS_70: 514349653
-      Pack-ElementsGEMS_71: -1667457781
-      Pack-ElementsGEMS_72: 629759520
-      Pack-ElementsGEMS_73: -565976105
-      Pack-ElementsGEMS_74: -1582094298
-      Pack-ElementsGEMS_75: 111348836
-      Pack-ElementsGEMS_76: -1051836234
-      Pack-ElementsGEMS_77: -2009891208
-      Pack-ElementsGEMS_78: -653240196
-      Pack-ElementsGEMS_79: 1109457257
-      Pack-ElementsGEMS_8: 1132902569
-      Pack-ElementsGEMS_80: -1210344961
-      Pack-ElementsGEMS_81: -1256866300
-      Pack-ElementsGEMS_82: 1941665256
-      Pack-ElementsGEMS_83: 1557065083
-      Pack-ElementsGEMS_84: -2018944500
-      Pack-ElementsGEMS_85: -1951516989
-      Pack-ElementsGEMS_86: 1536836545
-      Pack-ElementsGEMS_87: 907987910
-      Pack-ElementsGEMS_88: 1104533825
-      Pack-ElementsGEMS_89: 940552238
-      Pack-ElementsGEMS_9: -1384657555
+      PEG_0: -2114997845
+      PEG_1: -1086993797
+      PEG_10: 558876449
+      PEG_11: -752184001
+      PEG_12: -1205900006
+      PEG_13: -1113165668
+      PEG_14: -712717933
+      PEG_15: 1379380247
+      PEG_16: 321888200
+      PEG_17: 1311023508
+      PEG_18: 908017638
+      PEG_19: 1187615710
+      PEG_2: -1914984962
+      PEG_20: 1229353138
+      PEG_21: -176867791
+      PEG_22: 365710710
+      PEG_23: 520559951
+      PEG_24: 944495041
+      PEG_25: -140398798
+      PEG_26: 1181075738
+      PEG_27: 1677405194
+      PEG_28: -1795781963
+      PEG_29: 1235120045
+      PEG_3: 1043041914
+      PEG_30: 1599246672
+      PEG_31: -1996960228
+      PEG_32: -1352838993
+      PEG_33: 365990971
+      PEG_34: -461462734
+      PEG_35: 143603872
+      PEG_36: -897477101
+      PEG_37: -551371408
+      PEG_38: -1435595031
+      PEG_39: -1172504285
+      PEG_4: 1065797019
+      PEG_40: -1497437835
+      PEG_41: -1894927800
+      PEG_42: 1628802735
+      PEG_43: -1222743964
+      PEG_44: 2105837018
+      PEG_45: 1985734029
+      PEG_46: 771518872
+      PEG_47: -637122321
+      PEG_48: -803194383
+      PEG_49: -751949545
+      PEG_5: 1066938875
+      PEG_50: 517763318
+      PEG_51: 589694801
+      PEG_52: 1653320423
+      PEG_53: -708979528
+      PEG_54: -1916016930
+      PEG_55: -1281652049
+      PEG_56: 1759026119
+      PEG_57: -1400183449
+      PEG_58: -1399115004
+      PEG_59: -2096252276
+      PEG_6: 2000331315
+      PEG_60: 1114267419
+      PEG_61: -1752851205
+      PEG_62: 471608210
+      PEG_63: -1016768298
+      PEG_64: 1481492847
+      PEG_65: -132786727
+      PEG_66: 718311886
+      PEG_67: -1084378667
+      PEG_68: 1277605821
+      PEG_69: -558162013
+      PEG_7: -234092814
+      PEG_70: -1941954487
+      PEG_71: 727794928
+      PEG_72: 1294979933
+      PEG_73: -204122293
+      PEG_74: -1908097228
+      PEG_75: -2018385376
+      PEG_76: -1831115011
+      PEG_77: -335471288
+      PEG_78: -1632060044
+      PEG_79: -1933076927
+      PEG_8: -1476866736
+      PEG_80: -169374231
+      PEG_81: -1384186292
+      PEG_82: -391372480
+      PEG_83: -2115413171
+      PEG_84: 585587886
+      PEG_85: 1985180299
+      PEG_86: 720262906
+      PEG_87: 1693931602
+      PEG_88: -1840289701
+      PEG_89: -815868709
+      PEG_9: -844312532
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 276847
-  packageName: Gem Game full Pack 128px 256px full version
-  packageVersion: 1.0
-  assetPath: Assets/Gem Pack Complete/256 Full content/Pack-ElementsGEMS.png
-  uploadId: 645795

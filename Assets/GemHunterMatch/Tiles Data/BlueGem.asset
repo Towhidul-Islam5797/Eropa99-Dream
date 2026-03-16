@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7a11575aeb75f4b47aa5e777e84540c2, type: 3}
-  m_Name: GreenGem
+  m_Name: BlueGem
   m_EditorClassIdentifier: 
-  PreviewEditorSprite: {fileID: 21300000, guid: 6ceb63930b431c74aa7b4d8d80bcb59c, type: 3}
-  PlacedGem: {fileID: 7927807542344970777, guid: 924c8da2c1342cd41a99abdae62388df, type: 3}
+  PreviewEditorSprite: {fileID: 1628802735, guid: d7364ae6b5653e2458b9784a8266e4ed, type: 3}
+  PlacedGem: {fileID: 7927807542344970777, guid: 04a81442ef4438841a0074ba8568d5d9, type: 3}
