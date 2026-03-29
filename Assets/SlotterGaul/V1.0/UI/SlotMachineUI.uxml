@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ui:UXML
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ui="UnityEngine.UIElements"
+    xsi:noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd"
+>
+    <ui:VisualElement name="Root" style="width: 100%; height: 100%; background-color: rgb(20, 20, 40); align-items: center; justify-content: space-between; padding-top: 20px; padding-bottom: 20px;">
+        
+        <ui:Label name="CoinLabel" text="Coins: 1000" style="color: rgb(255, 200, 0); font-size: 24px;"/>
+        
+        <ui:VisualElement name="ReelGrid" style="flex-direction: row; justify-content: center;"/>
+        
+        <ui:Button name="SpinButton" text="SPIN" style="width: 200px; height: 60px; font-size: 24px; background-color: rgb(200, 50, 50); color: white;"/>
+        
+    </ui:VisualElement>
+</ui:UXML>
