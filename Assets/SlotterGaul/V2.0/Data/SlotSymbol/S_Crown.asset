@@ -14,4 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SlotterGaul.V2.SlotSymbol
   symbolName: S_Crown
   sprite: {fileID: 0}
+  color: {r: 1, g: 0.84313726, b: 0, a: 1}
   baseValue: 8

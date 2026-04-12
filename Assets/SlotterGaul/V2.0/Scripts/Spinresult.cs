@@ -1,3 +1,4 @@
+#region Sprint 1
 namespace SlotterGaul.V2
 {
     public class SpinResult
@@ -15,3 +16,4 @@ namespace SlotterGaul.V2
         }
     }
 }
+#endregion

@@ -14,6 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SlotterGaul.V2.SlotMachineConfig
   columns: 6
   rows: 5
-  symbols: []
+  symbols:
+  - {fileID: 11400000, guid: eb1b3fd43068d5c47b4f40928a5bfbc9, type: 2}
+  - {fileID: 11400000, guid: f8dffd6dae87d884d82ccbf82131975b, type: 2}
+  - {fileID: 11400000, guid: 218eeeb8138af3d42b15db75c5abf8ad, type: 2}
+  - {fileID: 11400000, guid: 6bf73919be1723d43899c9dd351e1ae1, type: 2}
+  - {fileID: 11400000, guid: cc5e3eca0abf79242b6f719a26d97ad0, type: 2}
+  - {fileID: 11400000, guid: 21fa1b232abc43349a87350912d57cd2, type: 2}
   betOptions: 64000000f4010000e803000088130000
   minSymbolCountToWin: 8
