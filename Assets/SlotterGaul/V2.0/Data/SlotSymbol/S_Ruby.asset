@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: S_Ruby
   m_EditorClassIdentifier: Assembly-CSharp::SlotterGaul.V2.SlotSymbol
   symbolName: S_Ruby
-  sprite: {fileID: 0}
+  sprite: {fileID: -1399115004, guid: d7364ae6b5653e2458b9784a8266e4ed, type: 3}
   color: {r: 1, g: 0.09019608, b: 0.26666668, a: 1}
   baseValue: 3

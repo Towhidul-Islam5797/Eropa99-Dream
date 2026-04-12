@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: S_Emerald
   m_EditorClassIdentifier: Assembly-CSharp::SlotterGaul.V2.SlotSymbol
   symbolName: S_Emerald
-  sprite: {fileID: 0}
+  sprite: {fileID: -391372480, guid: d7364ae6b5653e2458b9784a8266e4ed, type: 3}
   color: {r: 0, g: 0.78431374, b: 0.3254902, a: 1}
   baseValue: 2

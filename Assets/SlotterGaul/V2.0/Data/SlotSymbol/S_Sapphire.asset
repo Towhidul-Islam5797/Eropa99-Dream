@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: S_Sapphire
   m_EditorClassIdentifier: Assembly-CSharp::SlotterGaul.V2.SlotSymbol
   symbolName: S_Sapphire
-  sprite: {fileID: 0}
+  sprite: {fileID: -1384186292, guid: d7364ae6b5653e2458b9784a8266e4ed, type: 3}
   color: {r: 0.08235294, g: 0.39607844, b: 0.7529412, a: 1}
   baseValue: 1

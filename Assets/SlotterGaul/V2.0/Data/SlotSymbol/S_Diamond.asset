@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: S_Diamond
   m_EditorClassIdentifier: Assembly-CSharp::SlotterGaul.V2.SlotSymbol
   symbolName: S_Diamond
-  sprite: {fileID: 0}
+  sprite: {fileID: 1063405065, guid: 681e7e53eb6b2464796a3b703bbcd396, type: 3}
   color: {r: 0, g: 0.7490196, b: 1, a: 1}
   baseValue: 10
