@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b9a9180a0702f54aaf1d89c4d97c6a1, type: 3}
   m_Name: PlayerData
   m_EditorClassIdentifier: Assembly-CSharp::SlotterGaul.V2.PlayerData
-  coins: 10000
+  coins: 1133900

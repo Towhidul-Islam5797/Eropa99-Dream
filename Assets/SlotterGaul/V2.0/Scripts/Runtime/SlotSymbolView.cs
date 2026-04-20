@@ -1,3 +1,4 @@
+#region Milestone 2 Sprint 7 - Slot Symbol View
 using UnityEngine;
 
 namespace SlotterGaul.V2
@@ -40,3 +41,4 @@ namespace SlotterGaul.V2
         }
     }
 }
+#endregion
