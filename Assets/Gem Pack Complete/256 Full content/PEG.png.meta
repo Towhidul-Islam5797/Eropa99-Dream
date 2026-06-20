@@ -51,11 +51,11 @@ TextureImporter:
   lightmap: 0
   compressionQuality: 50
   spriteMode: 2
-  spriteExtrude: 1
+  spriteExtrude: 0
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 250
+  spritePixelsToUnits: 270
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -79,7 +79,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -172,10 +172,10 @@ TextureImporter:
       name: PEG_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 2304
-        width: 256
-        height: 256
+        x: 37
+        y: 2347
+        width: 184
+        height: 181
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -194,10 +194,10 @@ TextureImporter:
       name: PEG_1
       rect:
         serializedVersion: 2
-        x: 256
-        y: 2304
-        width: 256
-        height: 256
+        x: 304
+        y: 2348
+        width: 160
+        height: 180
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -216,10 +216,10 @@ TextureImporter:
       name: PEG_2
       rect:
         serializedVersion: 2
-        x: 512
-        y: 2304
-        width: 256
-        height: 256
+        x: 553
+        y: 2343
+        width: 161
+        height: 190
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -238,10 +238,10 @@ TextureImporter:
       name: PEG_3
       rect:
         serializedVersion: 2
-        x: 768
-        y: 2304
-        width: 256
-        height: 256
+        x: 838
+        y: 2332
+        width: 106
+        height: 211
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -260,10 +260,10 @@ TextureImporter:
       name: PEG_4
       rect:
         serializedVersion: 2
-        x: 1024
-        y: 2304
-        width: 256
-        height: 256
+        x: 1051
+        y: 2344
+        width: 197
+        height: 183
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -282,10 +282,10 @@ TextureImporter:
       name: PEG_5
       rect:
         serializedVersion: 2
-        x: 1280
-        y: 2304
-        width: 256
-        height: 256
+        x: 1314
+        y: 2343
+        width: 187
+        height: 189
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -304,10 +304,10 @@ TextureImporter:
       name: PEG_6
       rect:
         serializedVersion: 2
-        x: 1536
-        y: 2304
-        width: 256
-        height: 256
+        x: 1598
+        y: 2367
+        width: 141
+        height: 143
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -326,10 +326,10 @@ TextureImporter:
       name: PEG_7
       rect:
         serializedVersion: 2
-        x: 1792
-        y: 2304
-        width: 256
-        height: 256
+        x: 1847
+        y: 2366
+        width: 140
+        height: 145
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -348,10 +348,10 @@ TextureImporter:
       name: PEG_8
       rect:
         serializedVersion: 2
-        x: 2048
-        y: 2304
-        width: 256
-        height: 256
+        x: 2115
+        y: 2364
+        width: 145
+        height: 145
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -370,10 +370,10 @@ TextureImporter:
       name: PEG_9
       rect:
         serializedVersion: 2
-        x: 0
-        y: 2048
-        width: 256
-        height: 256
+        x: 36
+        y: 2051
+        width: 168
+        height: 227
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -392,10 +392,10 @@ TextureImporter:
       name: PEG_10
       rect:
         serializedVersion: 2
-        x: 256
-        y: 2048
-        width: 256
-        height: 256
+        x: 308
+        y: 2078
+        width: 153
+        height: 214
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -414,10 +414,10 @@ TextureImporter:
       name: PEG_11
       rect:
         serializedVersion: 2
-        x: 512
-        y: 2048
-        width: 256
-        height: 256
+        x: 551
+        y: 2082
+        width: 166
+        height: 207
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -436,10 +436,10 @@ TextureImporter:
       name: PEG_12
       rect:
         serializedVersion: 2
-        x: 768
-        y: 2048
-        width: 256
-        height: 256
+        x: 800
+        y: 2068
+        width: 180
+        height: 236
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -458,10 +458,10 @@ TextureImporter:
       name: PEG_13
       rect:
         serializedVersion: 2
-        x: 1024
-        y: 2048
-        width: 256
-        height: 256
+        x: 1068
+        y: 2067
+        width: 168
+        height: 229
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -480,10 +480,10 @@ TextureImporter:
       name: PEG_14
       rect:
         serializedVersion: 2
-        x: 1280
-        y: 2048
-        width: 256
-        height: 256
+        x: 1336
+        y: 2067
+        width: 144
+        height: 217
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -502,10 +502,10 @@ TextureImporter:
       name: PEG_15
       rect:
         serializedVersion: 2
-        x: 1536
-        y: 2048
-        width: 256
-        height: 256
+        x: 1597
+        y: 2099
+        width: 143
+        height: 143
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -524,10 +524,10 @@ TextureImporter:
       name: PEG_16
       rect:
         serializedVersion: 2
-        x: 1792
-        y: 2048
-        width: 256
-        height: 256
+        x: 1847
+        y: 2096
+        width: 141
+        height: 147
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -546,10 +546,10 @@ TextureImporter:
       name: PEG_17
       rect:
         serializedVersion: 2
-        x: 2048
-        y: 2048
-        width: 256
-        height: 256
+        x: 2115
+        y: 2106
+        width: 144
+        height: 142
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -568,10 +568,10 @@ TextureImporter:
       name: PEG_18
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1792
-        width: 256
-        height: 256
+        x: 39
+        y: 1818
+        width: 160
+        height: 199
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -590,10 +590,10 @@ TextureImporter:
       name: PEG_19
       rect:
         serializedVersion: 2
-        x: 256
-        y: 1792
-        width: 256
-        height: 256
+        x: 307
+        y: 1840
+        width: 156
+        height: 154
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -612,10 +612,10 @@ TextureImporter:
       name: PEG_20
       rect:
         serializedVersion: 2
-        x: 512
-        y: 1792
-        width: 256
-        height: 256
+        x: 572
+        y: 1812
+        width: 126
+        height: 209
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -634,10 +634,10 @@ TextureImporter:
       name: PEG_21
       rect:
         serializedVersion: 2
-        x: 768
-        y: 1792
-        width: 256
-        height: 256
+        x: 822
+        y: 1804
+        width: 137
+        height: 227
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -656,10 +656,10 @@ TextureImporter:
       name: PEG_22
       rect:
         serializedVersion: 2
-        x: 1024
-        y: 1792
-        width: 256
-        height: 256
+        x: 1077
+        y: 1822
+        width: 148
+        height: 189
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -678,10 +678,10 @@ TextureImporter:
       name: PEG_23
       rect:
         serializedVersion: 2
-        x: 1280
-        y: 1792
-        width: 256
-        height: 256
+        x: 1313
+        y: 1833
+        width: 192
+        height: 169
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -700,10 +700,10 @@ TextureImporter:
       name: PEG_24
       rect:
         serializedVersion: 2
-        x: 1536
-        y: 1792
-        width: 256
-        height: 256
+        x: 1597
+        y: 1846
+        width: 144
+        height: 142
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -722,10 +722,10 @@ TextureImporter:
       name: PEG_25
       rect:
         serializedVersion: 2
-        x: 1792
-        y: 1792
-        width: 256
-        height: 256
+        x: 1847
+        y: 1844
+        width: 139
+        height: 147
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -744,10 +744,10 @@ TextureImporter:
       name: PEG_26
       rect:
         serializedVersion: 2
-        x: 2048
-        y: 1792
-        width: 256
-        height: 256
+        x: 2116
+        y: 1844
+        width: 142
+        height: 145
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -766,10 +766,10 @@ TextureImporter:
       name: PEG_27
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1536
-        width: 256
-        height: 256
+        x: 44
+        y: 1548
+        width: 150
+        height: 205
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -788,10 +788,10 @@ TextureImporter:
       name: PEG_28
       rect:
         serializedVersion: 2
-        x: 256
-        y: 1536
-        width: 256
-        height: 256
+        x: 287
+        y: 1556
+        width: 196
+        height: 196
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -810,10 +810,10 @@ TextureImporter:
       name: PEG_29
       rect:
         serializedVersion: 2
-        x: 512
-        y: 1536
-        width: 256
-        height: 256
+        x: 557
+        y: 1556
+        width: 154
+        height: 207
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -832,10 +832,10 @@ TextureImporter:
       name: PEG_30
       rect:
         serializedVersion: 2
-        x: 768
-        y: 1536
-        width: 256
-        height: 256
+        x: 821
+        y: 1563
+        width: 139
+        height: 189
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -854,10 +854,10 @@ TextureImporter:
       name: PEG_31
       rect:
         serializedVersion: 2
-        x: 1024
-        y: 1536
-        width: 256
-        height: 256
+        x: 1059
+        y: 1575
+        width: 182
+        height: 164
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -876,10 +876,10 @@ TextureImporter:
       name: PEG_32
       rect:
         serializedVersion: 2
-        x: 1280
-        y: 1536
-        width: 256
-        height: 256
+        x: 1306
+        y: 1561
+        width: 206
+        height: 191
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -898,10 +898,10 @@ TextureImporter:
       name: PEG_33
       rect:
         serializedVersion: 2
-        x: 1536
-        y: 1536
-        width: 256
-        height: 256
+        x: 1596
+        y: 1579
+        width: 145
+        height: 143
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -920,10 +920,10 @@ TextureImporter:
       name: PEG_34
       rect:
         serializedVersion: 2
-        x: 1792
-        y: 1536
-        width: 256
-        height: 256
+        x: 1847
+        y: 1579
+        width: 140
+        height: 143
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -942,10 +942,10 @@ TextureImporter:
       name: PEG_35
       rect:
         serializedVersion: 2
-        x: 2048
-        y: 1536
-        width: 256
-        height: 256
+        x: 2117
+        y: 1577
+        width: 141
+        height: 147
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -964,10 +964,10 @@ TextureImporter:
       name: PEG_36
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1280
-        width: 256
-        height: 256
+        x: 68
+        y: 1309
+        width: 141
+        height: 188
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -986,10 +986,10 @@ TextureImporter:
       name: PEG_37
       rect:
         serializedVersion: 2
-        x: 256
-        y: 1280
-        width: 256
-        height: 256
+        x: 287
+        y: 1304
+        width: 195
+        height: 198
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1008,10 +1008,10 @@ TextureImporter:
       name: PEG_38
       rect:
         serializedVersion: 2
-        x: 512
-        y: 1280
-        width: 256
-        height: 256
+        x: 552
+        y: 1308
+        width: 165
+        height: 190
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1030,10 +1030,10 @@ TextureImporter:
       name: PEG_39
       rect:
         serializedVersion: 2
-        x: 768
-        y: 1280
-        width: 256
-        height: 256
+        x: 824
+        y: 1312
+        width: 133
+        height: 183
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1052,10 +1052,10 @@ TextureImporter:
       name: PEG_40
       rect:
         serializedVersion: 2
-        x: 1024
-        y: 1280
-        width: 256
-        height: 256
+        x: 1071
+        y: 1312
+        width: 171
+        height: 182
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1074,10 +1074,10 @@ TextureImporter:
       name: PEG_41
       rect:
         serializedVersion: 2
-        x: 1280
-        y: 1280
-        width: 256
-        height: 256
+        x: 1337
+        y: 1332
+        width: 143
+        height: 142
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1096,10 +1096,10 @@ TextureImporter:
       name: PEG_42
       rect:
         serializedVersion: 2
-        x: 1536
-        y: 1280
-        width: 256
-        height: 256
+        x: 1598
+        y: 1333
+        width: 142
+        height: 143
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1118,10 +1118,10 @@ TextureImporter:
       name: PEG_43
       rect:
         serializedVersion: 2
-        x: 1792
-        y: 1280
-        width: 256
-        height: 256
+        x: 1846
+        y: 1332
+        width: 144
+        height: 144
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1140,10 +1140,10 @@ TextureImporter:
       name: PEG_44
       rect:
         serializedVersion: 2
-        x: 2048
-        y: 1280
-        width: 256
-        height: 256
+        x: 2116
+        y: 1332
+        width: 142
+        height: 144
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1162,10 +1162,10 @@ TextureImporter:
       name: PEG_45
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1024
-        width: 256
-        height: 256
+        x: 53
+        y: 1079
+        width: 146
+        height: 149
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1184,10 +1184,10 @@ TextureImporter:
       name: PEG_46
       rect:
         serializedVersion: 2
-        x: 256
-        y: 1024
-        width: 256
-        height: 256
+        x: 300
+        y: 1088
+        width: 169
+        height: 131
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1206,10 +1206,10 @@ TextureImporter:
       name: PEG_47
       rect:
         serializedVersion: 2
-        x: 512
-        y: 1024
-        width: 256
-        height: 256
+        x: 566
+        y: 1084
+        width: 137
+        height: 138
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1228,10 +1228,10 @@ TextureImporter:
       name: PEG_48
       rect:
         serializedVersion: 2
-        x: 768
-        y: 1024
-        width: 256
-        height: 256
+        x: 821
+        y: 1067
+        width: 138
+        height: 172
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1250,10 +1250,10 @@ TextureImporter:
       name: PEG_49
       rect:
         serializedVersion: 2
-        x: 1024
-        y: 1024
-        width: 256
-        height: 256
+        x: 1072
+        y: 1067
+        width: 166
+        height: 160
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1272,10 +1272,10 @@ TextureImporter:
       name: PEG_50
       rect:
         serializedVersion: 2
-        x: 1280
-        y: 1024
-        width: 256
-        height: 256
+        x: 1337
+        y: 1084
+        width: 143
+        height: 138
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1294,10 +1294,10 @@ TextureImporter:
       name: PEG_51
       rect:
         serializedVersion: 2
-        x: 1536
-        y: 1024
-        width: 256
-        height: 256
+        x: 1596
+        y: 1078
+        width: 144
+        height: 150
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1316,10 +1316,10 @@ TextureImporter:
       name: PEG_52
       rect:
         serializedVersion: 2
-        x: 1792
-        y: 1024
-        width: 256
-        height: 256
+        x: 1845
+        y: 1079
+        width: 144
+        height: 147
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1338,10 +1338,10 @@ TextureImporter:
       name: PEG_53
       rect:
         serializedVersion: 2
-        x: 2048
-        y: 1024
-        width: 256
-        height: 256
+        x: 2116
+        y: 1083
+        width: 144
+        height: 141
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1360,10 +1360,10 @@ TextureImporter:
       name: PEG_54
       rect:
         serializedVersion: 2
-        x: 0
-        y: 768
-        width: 256
-        height: 256
+        x: 42
+        y: 797
+        width: 155
+        height: 185
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1382,10 +1382,10 @@ TextureImporter:
       name: PEG_55
       rect:
         serializedVersion: 2
-        x: 256
-        y: 768
-        width: 256
-        height: 256
+        x: 317
+        y: 802
+        width: 134
+        height: 175
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1404,10 +1404,10 @@ TextureImporter:
       name: PEG_56
       rect:
         serializedVersion: 2
-        x: 512
-        y: 768
-        width: 256
-        height: 256
+        x: 559
+        y: 813
+        width: 150
+        height: 154
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1426,10 +1426,10 @@ TextureImporter:
       name: PEG_57
       rect:
         serializedVersion: 2
-        x: 768
-        y: 768
-        width: 256
-        height: 256
+        x: 822
+        y: 790
+        width: 136
+        height: 201
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1448,10 +1448,10 @@ TextureImporter:
       name: PEG_58
       rect:
         serializedVersion: 2
-        x: 1024
-        y: 768
-        width: 256
-        height: 256
+        x: 1070
+        y: 805
+        width: 163
+        height: 167
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1470,10 +1470,10 @@ TextureImporter:
       name: PEG_59
       rect:
         serializedVersion: 2
-        x: 1280
-        y: 768
-        width: 256
-        height: 256
+        x: 1337
+        y: 818
+        width: 144
+        height: 144
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1492,10 +1492,10 @@ TextureImporter:
       name: PEG_60
       rect:
         serializedVersion: 2
-        x: 1536
-        y: 768
-        width: 256
-        height: 256
+        x: 1596
+        y: 817
+        width: 144
+        height: 145
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1514,10 +1514,10 @@ TextureImporter:
       name: PEG_61
       rect:
         serializedVersion: 2
-        x: 1792
-        y: 768
-        width: 256
-        height: 256
+        x: 1846
+        y: 818
+        width: 142
+        height: 144
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1536,10 +1536,10 @@ TextureImporter:
       name: PEG_62
       rect:
         serializedVersion: 2
-        x: 2048
-        y: 768
-        width: 256
-        height: 256
+        x: 2115
+        y: 818
+        width: 143
+        height: 143
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1558,10 +1558,10 @@ TextureImporter:
       name: PEG_63
       rect:
         serializedVersion: 2
-        x: 0
-        y: 512
-        width: 256
-        height: 256
+        x: 43
+        y: 532
+        width: 150
+        height: 204
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1580,10 +1580,10 @@ TextureImporter:
       name: PEG_64
       rect:
         serializedVersion: 2
-        x: 256
-        y: 512
-        width: 256
-        height: 256
+        x: 303
+        y: 543
+        width: 164
+        height: 179
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1602,10 +1602,10 @@ TextureImporter:
       name: PEG_65
       rect:
         serializedVersion: 2
-        x: 512
-        y: 512
-        width: 256
-        height: 256
+        x: 577
+        y: 534
+        width: 114
+        height: 198
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1624,10 +1624,10 @@ TextureImporter:
       name: PEG_66
       rect:
         serializedVersion: 2
-        x: 768
-        y: 512
-        width: 256
-        height: 256
+        x: 819
+        y: 531
+        width: 143
+        height: 205
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1646,10 +1646,10 @@ TextureImporter:
       name: PEG_67
       rect:
         serializedVersion: 2
-        x: 1024
-        y: 512
-        width: 256
-        height: 256
+        x: 1093
+        y: 536
+        width: 116
+        height: 195
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1668,10 +1668,10 @@ TextureImporter:
       name: PEG_68
       rect:
         serializedVersion: 2
-        x: 1280
-        y: 512
-        width: 256
-        height: 256
+        x: 1337
+        y: 559
+        width: 143
+        height: 147
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1690,10 +1690,10 @@ TextureImporter:
       name: PEG_69
       rect:
         serializedVersion: 2
-        x: 1536
-        y: 512
-        width: 256
-        height: 256
+        x: 1596
+        y: 558
+        width: 144
+        height: 150
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1712,10 +1712,10 @@ TextureImporter:
       name: PEG_70
       rect:
         serializedVersion: 2
-        x: 1792
-        y: 512
-        width: 256
-        height: 256
+        x: 1845
+        y: 557
+        width: 145
+        height: 152
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1734,10 +1734,10 @@ TextureImporter:
       name: PEG_71
       rect:
         serializedVersion: 2
-        x: 2048
-        y: 512
-        width: 256
-        height: 256
+        x: 2115
+        y: 557
+        width: 145
+        height: 150
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1756,10 +1756,10 @@ TextureImporter:
       name: PEG_72
       rect:
         serializedVersion: 2
-        x: 0
-        y: 256
-        width: 256
-        height: 256
+        x: 69
+        y: 272
+        width: 103
+        height: 165
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1778,10 +1778,10 @@ TextureImporter:
       name: PEG_73
       rect:
         serializedVersion: 2
-        x: 256
-        y: 256
-        width: 256
-        height: 256
+        x: 313
+        y: 264
+        width: 143
+        height: 216
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1800,10 +1800,10 @@ TextureImporter:
       name: PEG_74
       rect:
         serializedVersion: 2
-        x: 512
-        y: 256
-        width: 256
-        height: 256
+        x: 557
+        y: 269
+        width: 154
+        height: 220
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1822,10 +1822,10 @@ TextureImporter:
       name: PEG_75
       rect:
         serializedVersion: 2
-        x: 768
-        y: 256
-        width: 256
-        height: 256
+        x: 833
+        y: 302
+        width: 114
+        height: 119
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1844,10 +1844,10 @@ TextureImporter:
       name: PEG_76
       rect:
         serializedVersion: 2
-        x: 1024
-        y: 256
-        width: 256
-        height: 256
+        x: 1088
+        y: 282
+        width: 130
+        height: 195
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1866,10 +1866,10 @@ TextureImporter:
       name: PEG_77
       rect:
         serializedVersion: 2
-        x: 1280
-        y: 256
-        width: 256
-        height: 256
+        x: 1337
+        y: 299
+        width: 144
+        height: 144
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1888,10 +1888,10 @@ TextureImporter:
       name: PEG_78
       rect:
         serializedVersion: 2
-        x: 1536
-        y: 256
-        width: 256
-        height: 256
+        x: 1596
+        y: 308
+        width: 145
+        height: 146
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1910,10 +1910,10 @@ TextureImporter:
       name: PEG_79
       rect:
         serializedVersion: 2
-        x: 1792
-        y: 256
-        width: 256
-        height: 256
+        x: 1846
+        y: 303
+        width: 144
+        height: 148
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1932,10 +1932,10 @@ TextureImporter:
       name: PEG_80
       rect:
         serializedVersion: 2
-        x: 2048
-        y: 256
-        width: 256
-        height: 256
+        x: 2116
+        y: 298
+        width: 144
+        height: 144
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1954,10 +1954,10 @@ TextureImporter:
       name: PEG_81
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 256
-        height: 256
+        x: 59
+        y: 52
+        width: 135
+        height: 151
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1976,10 +1976,10 @@ TextureImporter:
       name: PEG_82
       rect:
         serializedVersion: 2
-        x: 256
-        y: 0
-        width: 256
-        height: 256
+        x: 307
+        y: 33
+        width: 157
+        height: 190
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1998,10 +1998,10 @@ TextureImporter:
       name: PEG_83
       rect:
         serializedVersion: 2
-        x: 512
-        y: 0
-        width: 256
-        height: 256
+        x: 574
+        y: 23
+        width: 120
+        height: 209
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2020,10 +2020,10 @@ TextureImporter:
       name: PEG_84
       rect:
         serializedVersion: 2
-        x: 768
-        y: 0
-        width: 256
-        height: 256
+        x: 817
+        y: 52
+        width: 146
+        height: 151
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2042,10 +2042,10 @@ TextureImporter:
       name: PEG_85
       rect:
         serializedVersion: 2
-        x: 1024
-        y: 0
-        width: 256
-        height: 256
+        x: 1081
+        y: 51
+        width: 145
+        height: 150
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2064,10 +2064,10 @@ TextureImporter:
       name: PEG_86
       rect:
         serializedVersion: 2
-        x: 1280
-        y: 0
-        width: 256
-        height: 256
+        x: 1337
+        y: 53
+        width: 144
+        height: 146
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2086,10 +2086,10 @@ TextureImporter:
       name: PEG_87
       rect:
         serializedVersion: 2
-        x: 1536
-        y: 0
-        width: 256
-        height: 256
+        x: 1596
+        y: 54
+        width: 145
+        height: 145
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2108,10 +2108,10 @@ TextureImporter:
       name: PEG_88
       rect:
         serializedVersion: 2
-        x: 1792
-        y: 0
-        width: 256
-        height: 256
+        x: 1846
+        y: 56
+        width: 142
+        height: 143
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2130,10 +2130,10 @@ TextureImporter:
       name: PEG_89
       rect:
         serializedVersion: 2
-        x: 2048
-        y: 0
-        width: 256
-        height: 256
+        x: 2114
+        y: 52
+        width: 147
+        height: 151
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2162,7 +2162,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries:
       - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":9.0,"y":10.0},"gridSpriteSize":{"x":256.0,"y":256.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       PEG_0: -2114997845
       PEG_1: -1086993797
