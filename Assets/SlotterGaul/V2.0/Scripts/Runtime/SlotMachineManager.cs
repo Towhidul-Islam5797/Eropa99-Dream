@@ -143,6 +143,8 @@ namespace SlotterGaul.V2
             _isSpinning = true;
             ui?.SetSpinButtonInteractable(false);
 
+            SlotAudioManager.Instance?.PlaySpin();  // ADD THIS
+
             slotGrid.SpinAllReels(OnSpinComplete);
         }
 
@@ -153,10 +155,12 @@ namespace SlotterGaul.V2
             if (winAmount > 0)
             {
                 playerData.AddCoins(winAmount);
+                SlotAudioManager.Instance?.PlayWin();  // ADD THIS
                 Debug.Log($"WIN! +{winAmount} | Total: {playerData.coins}");
             }
             else
             {
+                SlotAudioManager.Instance?.PlayNoWin();  // ADD THIS
                 Debug.Log($"No win. Total: {playerData.coins}");
             }
 

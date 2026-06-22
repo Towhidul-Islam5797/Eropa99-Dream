@@ -92,6 +92,8 @@ namespace SlotterGaul.V2
             // snap to final result
             SetSymbols(finalSymbols);
 
+            // play reel stop sound
+            SlotAudioManager.Instance?.PlayReelStop();
             onStopped?.Invoke();
         }
 
