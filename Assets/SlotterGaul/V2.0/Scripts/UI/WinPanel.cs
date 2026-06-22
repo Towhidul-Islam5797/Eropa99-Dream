@@ -32,6 +32,14 @@ namespace SlotterGaul.V2
         public void Show(long amount)
         {
             if (amount <= 0) return;
+            StopAllCoroutines();
+            DOTween.Kill(panel.transform);
+            foreach (var shine in shineImages)
+            {
+                if (shine != null)
+                    DOTween.Kill(shine.transform);
+            }
+            panel.SetActive(true);
             StartCoroutine(ShowSequence(amount));
         }
 

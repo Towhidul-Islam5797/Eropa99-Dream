@@ -11,7 +11,7 @@ namespace SlotterGaul.V2
 
         public SlotSymbol[] symbols;
 
-        public int[] betOptions = { 100, 500, 1000, 5000 };
+        public long[] betOptions = { 100, 500, 1000, 5000 };
 
         // how many of the same symbol must appear on the grid to count as a win
         public int minSymbolCountToWin = 8;
