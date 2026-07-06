@@ -115,11 +115,14 @@
 
 #region Sprint 6
 using UnityEngine;
+using System.Collections;
 
 namespace SlotterGaul.V2
 {
+    
     public class SlotMachineManager : MonoBehaviour
     {
+        //[SerializeField] private Animator mermaidAnimator;
         public SlotMachineConfig config;
         public PlayerData playerData;
         public SlotGrid slotGrid;
@@ -155,18 +158,29 @@ namespace SlotterGaul.V2
             if (winAmount > 0)
             {
                 playerData.AddCoins(winAmount);
-                SlotAudioManager.Instance?.PlayWin();  // ADD THIS
+                SlotAudioManager.Instance?.PlayWin();
+                //mermaidAnimator?.SetTrigger("Win");
+                StartCoroutine(ReturnMermaidToIdle(4.4f));
                 Debug.Log($"WIN! +{winAmount} | Total: {playerData.coins}");
             }
             else
             {
-                SlotAudioManager.Instance?.PlayNoWin();  // ADD THIS
+                SlotAudioManager.Instance?.PlayNoWin();
+                //mermaidAnimator?.SetTrigger("Lose");
+                StartCoroutine(ReturnMermaidToIdle(2.5f));
                 Debug.Log($"No win. Total: {playerData.coins}");
             }
 
             _isSpinning = false;
             ui?.SetSpinButtonInteractable(true);
             ui?.ShowWin(winAmount);
+        }
+
+        private IEnumerator ReturnMermaidToIdle(float delay)
+        {
+            StopCoroutine("ReturnMermaidToIdle");
+            yield return new WaitForSeconds(delay);
+            //mermaidAnimator?.SetTrigger("Idle");
         }
 
         public void IncreaseBet()

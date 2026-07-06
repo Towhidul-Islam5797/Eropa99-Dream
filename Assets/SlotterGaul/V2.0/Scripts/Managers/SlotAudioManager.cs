@@ -25,7 +25,13 @@ namespace SlotterGaul.V2
 
         private void Awake()
         {
+            if (Instance != null && Instance != this) 
+            { 
+                Destroy(gameObject); 
+                return; 
+            }
             Instance = this;
+            DontDestroyOnLoad(gameObject);
         }
 
         private void Start()

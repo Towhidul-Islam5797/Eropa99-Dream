@@ -1822,6 +1822,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 517f434e79b242b4483f7a6b3847932f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SlotterGaul.V2.SlotMachineManager
+  mermaidAnimator: {fileID: 1332803208}
   config: {fileID: 11400000, guid: 52871218f7e075a4ab6a213e77c15d23, type: 2}
   playerData: {fileID: 11400000, guid: 06c389a79a5cdd34cbc5187b568a17ee, type: 2}
   slotGrid: {fileID: 1037639391}
@@ -4890,6 +4891,11 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!95 &1332803208 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 8288502281779038578, guid: 864e5c5ce0cc62b4b81714b79790076d, type: 3}
+  m_PrefabInstance: {fileID: 712218059}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1398737825
 GameObject:
   m_ObjectHideFlags: 0

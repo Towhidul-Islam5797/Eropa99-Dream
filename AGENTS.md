@@ -2,7 +2,7 @@
 - Project name: Eropa99-Dream
 - Unity version: Unity 6000.3.10f1
 - Active game object:
-  - Name: Max Bet
+  - Name: Prefab_character_mermaid
   - Tag: Untagged
-  - Layer: UI
+  - Layer: Portrait
 <!-- UNITY CODE ASSIST INSTRUCTIONS END -->

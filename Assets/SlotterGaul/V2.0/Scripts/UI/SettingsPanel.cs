@@ -3,9 +3,6 @@ using UnityEngine.Audio;
 
 namespace SlotterGaul.V2
 {
-    // Attach this to the SettingsPanel GameObject.
-    // Wire each method below directly into a Slider's "On Value Changed (Single)" event in the Inspector.
-    // Volume is saved locally using PlayerPrefs - no dependency on GemHunter's GameManager.
     public class SettingsPanel : MonoBehaviour
     {
         [SerializeField] private AudioMixer audioMixer;
@@ -13,6 +10,13 @@ namespace SlotterGaul.V2
         private const string MainVolumeKey = "MainVolume";
         private const string MusicVolumeKey = "MusicVolume";
         private const string SFXVolumeKey = "SFXVolume";
+
+        private void Start()
+        {
+            ApplyVolume("MainVolume", PlayerPrefs.GetFloat(MainVolumeKey, 1f));
+            ApplyVolume("MusicVolume", PlayerPrefs.GetFloat(MusicVolumeKey, 1f));
+            ApplyVolume("SFXVolume", PlayerPrefs.GetFloat(SFXVolumeKey, 1f));
+        }
 
         public void SetMainVolume(float value)
         {
