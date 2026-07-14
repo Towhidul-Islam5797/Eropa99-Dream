@@ -50,8 +50,8 @@ namespace SlotterGaul
     public class SceneLoader : MonoBehaviour
     {
         // Scene names must match exactly what is in File > Build Settings
-        private const string SlotSceneName = "SMV2_Level1";
-        private const string GemHunterSceneName = "Main";
+        private const string SlotSceneName = "SlotMachine";
+        private const string GemHunterSceneName = "LoadingScene";
         private const string MainMenuSceneName = "MainMenu";
 
         // Called by the Play Slots button
@@ -73,6 +73,19 @@ namespace SlotterGaul
         // Called by the Back button in any game scene
         public static void GoToMainMenu()
         {
+            // Destroy persisting managers/audio components so they don't duplicate/stack when re-entering
+            var gameManager = Object.FindFirstObjectByType<Match3.GameManager>();
+            if (gameManager != null)
+            {
+                Object.Destroy(gameManager.gameObject);
+            }
+
+            var slotAudioManager = Object.FindFirstObjectByType<SlotterGaul.V2.SlotAudioManager>();
+            if (slotAudioManager != null)
+            {
+                Object.Destroy(slotAudioManager.gameObject);
+            }
+
             // Return to portrait for the main menu
             Screen.orientation = ScreenOrientation.Portrait;
             SceneManager.LoadScene(MainMenuSceneName);

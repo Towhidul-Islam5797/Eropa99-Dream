@@ -799,7 +799,7 @@ PlayerSettings:
   webWasm2023: 0
   webEnableSubmoduleStrippingCompatibility: 0
   scriptingDefineSymbols:
-    Android: DOTWEEN;DOTWEEN_UITOOLKIT
+    Android: DOTWEEN;DOTWEEN_UITOOLKIT;SENTIS_ANALYTICS_ENABLED;APP_UI_EDITOR_ONLY
     EmbeddedLinux: DOTWEEN;DOTWEEN_UITOOLKIT
     GameCoreScarlett: DOTWEEN;DOTWEEN_UITOOLKIT
     GameCoreXboxOne: DOTWEEN;DOTWEEN_UITOOLKIT
@@ -893,7 +893,13 @@ PlayerSettings:
   XboxOneOverrideIdentityName: 
   XboxOneOverrideIdentityPublisher: 
   vrEditorSettings: {}
-  cloudServicesEnabled: {}
+  cloudServicesEnabled:
+    Build: 0
+    Game Performance: 0
+    Legacy Analytics: 0
+    Purchasing: 0
+    UDP: 0
+    Unity Ads: 0
   luminIcon:
     m_Name: 
     m_ModelFolderPath: 
@@ -913,13 +919,13 @@ PlayerSettings:
   qnxGraphicConfPath: 
   apiCompatibilityLevel: 6
   captureStartupLogs: {}
-  activeInputHandler: 2
+  activeInputHandler: 1
   windowsGamepadBackendHint: 0
-  cloudProjectId: fa091698-a567-48ef-883b-d4edb0e4d5ac
+  cloudProjectId: 81a54e32-d128-4db4-9050-46bd83717e35
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
   projectName: Eropa99 Dream
-  organizationId: sacredfiend
+  organizationId: tamalunity7
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
   hmiLoadingImage: {fileID: 0}

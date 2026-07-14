@@ -168,7 +168,7 @@ namespace Match3
             {
                 FadeOut(() =>
                 {
-                    SceneManager.LoadScene("Main", LoadSceneMode.Single);
+                    SceneManager.LoadScene("LevelSelection", LoadSceneMode.Single);
                 });
             };
             
@@ -197,7 +197,7 @@ namespace Match3
                 FadeOut(() =>
                 {
                     ToggleSettingMenu(false);
-                    SceneManager.LoadScene("Main", LoadSceneMode.Single);
+                    SceneManager.LoadScene("LevelSelection", LoadSceneMode.Single);
                 });
             };
 

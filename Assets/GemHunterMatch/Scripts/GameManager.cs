@@ -90,49 +90,52 @@ namespace Match3
 
         private void Awake()
         {
-            if (s_Instance == this)
+            if (s_Instance != null && s_Instance != this)
             {
+                Destroy(gameObject);
                 return;
             }
 
-            if (s_Instance == null)
-            {
-                s_Instance = this;
-                DontDestroyOnLoad(gameObject);
-                
-                Application.targetFrameRate = 60;
+            s_Instance = this;
+            s_IsShuttingDown = false;
+            DontDestroyOnLoad(gameObject);
             
-                ClickAction.Enable();
-                ClickPosition.Enable();
+            Application.targetFrameRate = 60;
+        
+            ClickAction.Enable();
+            ClickPosition.Enable();
 
-                MusicSourceActive = Instantiate(Settings.SoundSettings.MusicSourcePrefab, transform);
-                MusicSourceBackground = Instantiate(Settings.SoundSettings.MusicSourcePrefab, transform);
+            MusicSourceActive = Instantiate(Settings.SoundSettings.MusicSourcePrefab, transform);
+            MusicSourceBackground = Instantiate(Settings.SoundSettings.MusicSourcePrefab, transform);
 
-                MusicSourceActive.volume = 1.0f;
-                MusicSourceBackground.volume = 0.0f;
+            MusicSourceActive.volume = 1.0f;
+            MusicSourceBackground.volume = 0.0f;
 
-                for (int i = 0; i < 16; ++i)
-                {
-                    var sourceInst = Instantiate(Settings.SoundSettings.SFXSourcePrefab, transform);
-                    m_SFXSourceQueue.Enqueue(sourceInst);
-                }
-
-                if (Settings.VisualSettings.BonusModePrefab != null)
-                {
-                    m_BonusModePrefab = Instantiate(Settings.VisualSettings.BonusModePrefab);
-                    m_BonusModePrefab.SetActive(false);
-                }
-
-                m_WinEffect = Instantiate(Settings.VisualSettings.WinEffect, transform);
-                m_LoseEffect = Instantiate(Settings.VisualSettings.LoseEffect, transform);
-
-                LoadSoundData();
+            for (int i = 0; i < 16; ++i)
+            {
+                var sourceInst = Instantiate(Settings.SoundSettings.SFXSourcePrefab, transform);
+                m_SFXSourceQueue.Enqueue(sourceInst);
             }
+
+            if (Settings.VisualSettings.BonusModePrefab != null)
+            {
+                m_BonusModePrefab = Instantiate(Settings.VisualSettings.BonusModePrefab);
+                m_BonusModePrefab.SetActive(false);
+            }
+
+            m_WinEffect = Instantiate(Settings.VisualSettings.WinEffect, transform);
+            m_LoseEffect = Instantiate(Settings.VisualSettings.LoseEffect, transform);
+
+            LoadSoundData();
         }
 
         private void OnDestroy()
         {
-            if (s_Instance == this) s_IsShuttingDown = true;
+            if (s_Instance == this)
+            {
+                s_IsShuttingDown = true;
+                s_Instance = null;
+            }
         }
 
         void GetReferences()
